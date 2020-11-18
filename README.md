@@ -1,4 +1,4 @@
 # control-repo
 LinkedIn Learning class Puppet Essential Training
 
-This is probably useless. 
+This is almost certainly useless.
