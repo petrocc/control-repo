@@ -1,8 +1,7 @@
 class profile::r10k {
   class {'r10k':
-    remote => 'git@github.com:petrocc/control-repo',
-    # remote => 'https://github.com:petrocc/control-repo',
-
+    # remote => 'git@github.com:petrocc/control-repo',
+    remote => 'https://github.com:petrocc/control-repo',
   }
   class {'r10k::webhook::config':
     use_mcollective => false,
